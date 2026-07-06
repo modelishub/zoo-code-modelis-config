@@ -8,7 +8,7 @@ Migrating off Roo Code (shut down)? This is the fastest path to a working provid
 
 ## 1. Get a free key (no card)
 
-👉 https://rapidapi.com/chenxiao5580/api/modelis-auto-chat — subscribe to the free tier, copy your `X-RapidAPI-Key`.
+👉 https://modelishub.com/pricing — pick "Get your free API key on RapidAPI", subscribe to the free tier, copy your `X-RapidAPI-Key`.
 
 ## 2. Run the local bridge (one command)
 
