@@ -1,0 +1,7 @@
+{
+  "_comment": "Paste these values into Cline / Roo Code / Zoo Code settings -> API Provider: OpenAI Compatible. Run `npx modelis-openai` first (see README) so localhost:8787 is listening.",
+  "apiProvider": "openai",
+  "openAiBaseUrl": "http://127.0.0.1:8787/v1",
+  "openAiApiKey": "<your-rapidapi-key>",
+  "openAiModelId": "modelis-auto"
+}

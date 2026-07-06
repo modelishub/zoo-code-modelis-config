@@ -1,0 +1,8 @@
+# Merge this `models:` entry into ~/.continue/config.yaml
+# Run `npx modelis-openai` first (see README) so localhost:8787 is listening.
+models:
+  - name: Modelis
+    provider: openai
+    model: modelis-auto
+    apiBase: http://127.0.0.1:8787/v1
+    apiKey: <your-rapidapi-key>
