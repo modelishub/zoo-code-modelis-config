@@ -54,9 +54,9 @@ Tier selection uses these colon names. `modelis-auto` is the standard tier.
 
 | Write this | Within-limit price | Included tokens |
 |---|---|---|
-| `modelis-auto` or `modelis-auto:standard` | $0.02 per call | 8k input / 2k output |
-| `modelis-auto:basic` | $0.004 per call | 4k input / 1k output |
-| `modelis-auto:premium` | $0.05 per call | 4k input / 1k output |
+| `modelis-auto` or `modelis-auto:standard` | $0.04 per call | 8k input / 2k output |
+| `modelis-auto:basic` | $0.008 per call | 4k input / 1k output |
+| `modelis-auto:premium` | $0.10 per call | 4k input / 1k output |
 
 A call that stays inside that tier's input and output limits pays the per-call price. Usage above those limits is billed per token.
 
