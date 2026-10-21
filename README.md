@@ -12,8 +12,10 @@ New accounts get **$1 free credit**. Sign up at [modelishub.com](https://modelis
 
 Add credit from the Modelis console when you need more:
 
-- Card, via Creem
+- Card, via Gumroad
 - Alipay or WeChat, via Afdian
+
+Both are on https://modelishub.com/pricing.
 
 ## 2. Paste the config
 
