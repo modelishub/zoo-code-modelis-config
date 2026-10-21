@@ -2,10 +2,10 @@
 # OpenAI-compatible gateway: https://modelishub.com/v1
 # modelis-auto is the standard tier (same as modelis-auto:standard).
 # Within-limit per-call prices:
-#   modelis-auto:basic    $0.004  (4k input / 1k output)
-#   modelis-auto          $0.02   (8k input / 2k output)
-#   modelis-auto:standard $0.02   (8k input / 2k output)
-#   modelis-auto:premium  $0.05   (4k input / 1k output)
+#   modelis-auto:basic    $0.008  (4k input / 1k output)
+#   modelis-auto          $0.04   (8k input / 2k output)
+#   modelis-auto:standard $0.04   (8k input / 2k output)
+#   modelis-auto:premium  $0.10   (4k input / 1k output)
 # Usage above those limits is billed per token.
 # Named models use their upstream id and are billed at upstream price + 15% (applied at top-up).
 models:
