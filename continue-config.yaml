@@ -1,8 +1,31 @@
-# Merge this `models:` entry into ~/.continue/config.yaml
-# Run `npx modelis-openai` first (see README) so localhost:8787 is listening.
+# Merge these `models:` entries into ~/.continue/config.yaml
+# OpenAI-compatible gateway: https://modelishub.com/v1
+# modelis-auto is the standard tier (same as modelis-auto:standard).
+# Within-limit per-call prices:
+#   modelis-auto:basic    $0.004  (4k input / 1k output)
+#   modelis-auto          $0.02   (8k input / 2k output)
+#   modelis-auto:standard $0.02   (8k input / 2k output)
+#   modelis-auto:premium  $0.05   (4k input / 1k output)
+# Usage above those limits is billed per token.
+# Named models use their upstream id and are billed at upstream price + 15% (applied at top-up).
 models:
-  - name: Modelis
+  - name: Modelis Auto (standard)
     provider: openai
     model: modelis-auto
-    apiBase: http://127.0.0.1:8787/v1
-    apiKey: <your-rapidapi-key>
+    apiBase: https://modelishub.com/v1
+    apiKey: <your-modelis-api-key>
+  - name: Modelis Auto Basic
+    provider: openai
+    model: modelis-auto:basic
+    apiBase: https://modelishub.com/v1
+    apiKey: <your-modelis-api-key>
+  - name: Modelis Auto Standard
+    provider: openai
+    model: modelis-auto:standard
+    apiBase: https://modelishub.com/v1
+    apiKey: <your-modelis-api-key>
+  - name: Modelis Auto Premium
+    provider: openai
+    model: modelis-auto:premium
+    apiBase: https://modelishub.com/v1
+    apiKey: <your-modelis-api-key>

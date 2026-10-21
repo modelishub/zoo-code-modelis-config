@@ -1,7 +1,7 @@
 {
-  "_comment": "Paste these values into Cline / Roo Code / Zoo Code settings -> API Provider: OpenAI Compatible. Run `npx modelis-openai` first (see README) so localhost:8787 is listening.",
+  "_comment": "Paste these values into Cline / Roo Code / Zoo Code settings -> API Provider: OpenAI Compatible. Base URL is the Modelis gateway (https://modelishub.com/v1). modelis-auto is the standard tier, same as modelis-auto:standard ($0.02/call within 8k in / 2k out). Other tiers: modelis-auto:basic ($0.004, 4k in / 1k out) and modelis-auto:premium ($0.05, 4k in / 1k out). Usage above those limits is billed per token.",
   "apiProvider": "openai",
-  "openAiBaseUrl": "http://127.0.0.1:8787/v1",
-  "openAiApiKey": "<your-rapidapi-key>",
+  "openAiBaseUrl": "https://modelishub.com/v1",
+  "openAiApiKey": "<your-modelis-api-key>",
   "openAiModelId": "modelis-auto"
 }
